@@ -15,8 +15,8 @@ The incidence of code smells is often associated with software quality degradati
 | Complex Method   | Java, C#, C++, JavaScript and Python | CC >= 8                                                   |
 | Long Method      | Java, C#, C++ and Python             | (LOC > 50) and (CC > 5)                                   |
 | Shotgun Surgery  | Java, C# and C++                     | (CC > 4) and (FanOut > 7)                                 |
-| Feature Envy     | Java, C# and C++                     | (CC > 4) and (FanOut > 4) and (LCOM textless 30%)         |
-| Divergent Change | Java, C# and C++                     | (FanIn > 10) and (LCOM textless 50%) and (CC > 4)         |
+| Feature Envy     | Java, C# and C++                     | (CC > 4) and (FanOut > 4) and (LCOM < 30%)         |
+| Divergent Change | Java, C# and C++                     | (FanIn > 10) and (LCOM < 50%) and (CC > 4)         |
 | God Class        | Java, C#, C++ and Python             | [(LOC > 150) and (CBO > 6)] or [(NOM > 15) and (CBO > 6)] |
 
 ## Metrics 

@@ -218,13 +218,19 @@ a {
     font-style: normal;
     font-weight: map-get($headingtype, regular);
     width: 100%;
+    font-size: 16px;
 
     thead {
 
       th {
         @include sassline(zeta, $headingtype, 2, 0, all);
-        padding-bottom: 1px;
+        font-weight: bold;
       }
+    }
+
+    th, td {
+      border: 1px solid gray;
+      padding: 5px;
     }
   }
 
