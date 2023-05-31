@@ -19,6 +19,8 @@ The incidence of code smells is often associated with software quality degradati
 | Divergent Change | Java, C# and C++                     | (FanIn > 10) and (LCOM < 50%) and (CC > 4)         |
 | God Class        | Java, C#, C++ and Python             | [(LOC > 150) and (CBO > 6)] or [(NOM > 15) and (CBO > 6)] |
 
+<br />
+
 ## Metrics 
 
 | Name | Understand | Description |
